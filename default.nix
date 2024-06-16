@@ -6,7 +6,7 @@ pkgs.rustPlatform.buildRustPackage {
   
   src = ./.;
 
-  cargoHash = "sha256-OL8D7J07kE6SDao6EWvb2LNHTltbXQ0ITnS+i432fUU=";
+  cargoHash = "sha256-mdhGfWL4v3cbmVe2glU+x19v45tJICS9c2wb7PlvZ/w=";
 
   nativeBuildInputs = with pkgs;[ pkg-config rustc glibc gvfs dconf];
 
