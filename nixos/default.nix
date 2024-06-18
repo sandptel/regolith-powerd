@@ -4,7 +4,7 @@ pkgs.rustPlatform.buildRustPackage {
   pname = "regolith-powerd";
   version = "main";
   
-  src = ./.;
+  src = ../.;
 
   cargoHash = "sha256-mdhGfWL4v3cbmVe2glU+x19v45tJICS9c2wb7PlvZ/w=";
 
